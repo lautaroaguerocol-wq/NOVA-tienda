@@ -51,6 +51,7 @@ if(id==='jbl')return `<img src="jbl-flip-7.png" alt="JBL Flip 7">`;
 if(id==='pro')return `<img src="airpods-pro-2.png" alt="AirPods Pro 2">`;
 if(id==='max')return `<img src="airpods-max.png" alt="AirPods Max">`;
 return `<img src="combo-cargador.png" alt="Combo Cargador">`;
+}
 function render(){
  $('#minorTab').classList.toggle('active',mode==='minor');$('#majorTab').classList.toggle('active',mode==='major');
  $('#modeNotice').textContent=mode==='minor'?'Compra minorista: máximo 2 unidades por producto. El precio en USD es orientativo.':'Compra mayorista: mínimo 3 y máximo 30 unidades por producto. El precio unitario baja en los tramos 3, 5, 10, 20 y 30.';
